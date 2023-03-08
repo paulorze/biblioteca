@@ -1,0 +1,9 @@
+@use './partials/vars';
+@use './partials/global';
+@use './partials/header';
+@use './partials/footer';
+@use './partials/index';
+
+@use './partials/mediaQuery768';
+@use './partials/mediaQuery980';
+@use './partials/mediaQuery1200';

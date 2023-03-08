@@ -1,0 +1,23 @@
+@use './vars';
+
+.index {
+    font-size: 2rem;
+    line-height: 2.75rem;
+
+    &__container {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &__text {
+            text-indent: 2rem;
+        }
+
+        &__image {
+            margin-top: 2rem;
+            width: 90vw;
+            height: auto;
+        }
+    }
+}

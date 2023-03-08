@@ -1,0 +1,34 @@
+@media screen and (min-width: 980px) {
+    h2 {
+        text-align: center;
+        font-size: 4rem;
+        padding-top: 2rem;
+    }
+
+    .index {
+        min-height: 72vh;
+    }
+
+    .index__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+
+        &__text {
+            width: 60vw;
+            padding-right: 2rem;
+        }
+
+        &__image {
+            width: 40vw;
+            animation: fadeInDer 2s ease-in-out;
+        }
+    }
+
+    @keyframes fadeInDer {
+        from {opacity: 0; transform: translate(100px)}
+        to {opacity: 1; transform: translate(0);}
+    }
+}

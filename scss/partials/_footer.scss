@@ -1,0 +1,40 @@
+@use './vars';
+
+.footer {
+    background-color: vars.$color-main;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 0;
+
+    &__title {
+        color: vars.$color-secondary;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &__redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 1rem;
+
+        &__icon {
+            @include vars.iconsize-sm;
+
+            img {
+                filter: vars.$filter-secondary;
+
+                &:active {
+                    filter: vars.$filter-dark;
+                }
+            }
+        }
+    }
+
+    &__copyright {
+        font-family: vars.$font-title;
+        color: vars.$color-secondary;
+        text-align: center;
+    }
+}

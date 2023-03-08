@@ -1,0 +1,18 @@
+$color-main: #6A994E;
+$color-secondary: #F2E8CF;
+$color-highlight: #A7C957;
+$color-accent: #BC4749;
+$color-dark: #386641;
+$font-title: 'Shantell Sans', cursive;
+$font-body: 'Quicksand', sans-serif;
+$filter-main: invert(59%) sepia(11%) saturate(1615%) hue-rotate(54deg) brightness(89%) contrast(89%);
+$filter-secondary: invert(94%) sepia(9%) saturate(1341%) hue-rotate(315deg) brightness(110%) contrast(90%);
+$filter-dark: invert(28%) sepia(59%) saturate(362%) hue-rotate(80deg) brightness(102%) contrast(86%);
+@mixin iconsize-sm {
+    width: 4rem;
+    height: 4rem;
+}
+@mixin iconsize-md {
+    width: 5rem;
+    height: 5rem;
+}
